@@ -21,10 +21,5 @@ class RegisterActivity : AppCompatActivity() {
             insets
         }
 
-        backToMainPageBtn = findViewById(R.id.registBackToMainBtn)
-
-        backToMainPageBtn.setOnClickListener() {
-            finish()
-        }
     }
 }
